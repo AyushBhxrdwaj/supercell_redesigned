@@ -156,3 +156,84 @@ video{
         transform: translateX(-100%);
     }
 }
+.mini-pekka{
+    height: 50vh;
+    object-fit: cover;
+}
+.rascals{
+    height: 50vh;
+    object-fit: cover;
+}
+#aboutus{
+    height:80vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    padding: 0 30px;
+    position: relative;
+    z-index: 10;
+}
+
+.about-us-in{
+    width: 40%;
+    text-align: center;
+}
+
+.about-us-in h3{
+    font-size: 50px;
+    font-weight: 800;
+    margin-bottom: 40px;
+}
+
+.about-us-in p{
+    font-size: 20px;
+    line-height: 25px;
+}
+
+#cards-container{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    gap: 50px;
+    flex-wrap:wrap;
+}
+
+.items{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.cards{
+    height:40vh;
+    width:30vw;
+    border-radius: 20px;
+    background-size: cover;
+    background-position: center;
+    z-index: 10;
+}
+
+#card1{
+    background-image: url(./assets/boom-beach.webp);
+}
+#card2{
+    background-image: url(./assets/brawl-stars.webp);
+
+}
+#card3{
+    background-image: url(./assets/coc.webp);
+}
+#card4{
+    background-image: url(./assets/cr.webp);
+}
+
+#card5{
+    background-image: url(./assets/squad-busters.webp);
+}
+#card6{
+    background-image: url(./assets/hay-day.webp);
+}
