@@ -53,3 +53,32 @@ gsap.to("#main",{
     }
 })
 
+gsap.from("#aboutus img,.about-us-in",{
+    y:100,
+    opacity:0,
+    duration:1,
+    stagger:0.4,
+    scrollTrigger:{
+        trigger:"#aboutus",
+        scroller:"body",
+        start:"top 60%",
+        end:"top 55%",
+        scrub:3
+
+    }
+})
+gsap.from(".cards",{
+    scale:0.4,
+    opacity:0,
+    duration:1,
+    stagger:0.1,
+    scrollTrigger:{
+        trigger:".cards",
+        scroller:"body",
+        start:"top 70%",
+        end:"top 65%",
+        scrub:1
+
+    }
+})
+

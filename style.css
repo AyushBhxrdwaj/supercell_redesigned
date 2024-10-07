@@ -91,6 +91,7 @@ video{
 .page1 p{
     font-size: 15px;
     font-weight: 500;
+    line-height: 25px;
     width: 50%;
 }
 
