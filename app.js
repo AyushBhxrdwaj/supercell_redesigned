@@ -10,7 +10,21 @@ document.addEventListener("mousemove",(dets)=>{
     cursor_blr.style.top = dets.y - 150 + "px"
 })
 
+var h4all = document.querySelectorAll("#nav h4")
+h4all.forEach(function(elem){
+    elem.addEventListener("mouseenter",function(){
+        cursor.style.scale = "3"
+        cursor.style.border = "0.5px solid white"
+        cursor.style.backgroundColor = "transparent"
 
+    })
+    elem.addEventListener("mouseleave",function(){
+        cursor.style.scale = "1"
+        cursor.style.border = "0px solid #95C11E"
+        cursor.style.backgroundColor = "#95C11E"
+
+    })
+})
 
 
 gsap.to("#nav",{
@@ -38,3 +52,4 @@ gsap.to("#main",{
         scrub:2
     }
 })
+
