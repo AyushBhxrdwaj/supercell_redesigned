@@ -82,3 +82,17 @@ gsap.from(".cards",{
     }
 })
 
+function media(x){
+    if(x.matches){
+        alert("The website is not ready for mobile view please use a Laptop or Desktop for better Experience.")
+    }
+
+}
+
+var x = window.matchMedia("(max-width:600px)")
+
+media(x)
+
+x.addEventListener("change",function(){
+    media(x)
+})
