@@ -83,11 +83,8 @@ gsap.from(".cards",{
 })
 
 function media() {
-    const x = document.querySelector("#alert");
     if (window.matchMedia("(max-width: 600px)").matches) {
-      x.style.display = "block";
-    } else {
-      x.style.display = "none";
+      alert("The website is not ready for mobile view please use a Laptop or Desktop for better Experience.")
     }
   }
 

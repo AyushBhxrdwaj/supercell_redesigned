@@ -335,17 +335,3 @@ video{
     height: 400px;
     margin-right: 100px;
 }
-
-#alert{
-    display: none;
-    position:fixed;
-    top: 0;
-    text-align: center;
-    color: white;
-    font-size: 20px;
-    font-weight: 700;
-    background: linear-gradient(white,black);
-    width: 100%;
-    padding: 20px;
-    z-index:1000;
-}
