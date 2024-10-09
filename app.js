@@ -82,17 +82,15 @@ gsap.from(".cards",{
     }
 })
 
-function media(x){
-    if(x.matches){
-        alert("The website is not ready for mobile view please use a Laptop or Desktop for better Experience.")
+function media() {
+    const x = document.querySelector("#alert");
+    if (window.matchMedia("(max-width: 600px)").matches) {
+      x.style.display = "block";
+    } else {
+      x.style.display = "none";
     }
+  }
 
-}
+media()
 
-var x = window.matchMedia("(max-width:600px)")
-
-media(x)
-
-x.addEventListener("change",function(){
-    media(x)
-})
+window.addEventListener("resize",media)
