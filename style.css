@@ -191,6 +191,9 @@ video{
     font-size: 50px;
     font-weight: 800;
     margin-bottom: 40px;
+    background: linear-gradient(to top,lightblue,red);
+    -webkit-background-clip: text;
+    color: transparent;
 }
 
 .about-us-in p{
@@ -214,6 +217,12 @@ video{
     font-size: 30px;
     font-weight: 900;
     z-index: 10;
+}
+
+.items h1{
+    background: linear-gradient(to top,rgb(248, 55, 87),yellow );
+    -webkit-background-clip: text;
+    color: transparent;
 }
 
 .cards{
@@ -285,12 +294,12 @@ video{
     justify-content:space-around;
     text-wrap: nowrap;
     /* background-color: red; */
-    background: linear-gradient(to left ,black,white);
+    background: linear-gradient(to bottom ,red,royalblue);
 }
 
 #greendiv h4{
     width: 40%;
-    color: rgb(43, 19, 43);
+    color:white;
     font-size: 23px;
     text-transform: uppercase;
 }
@@ -314,10 +323,13 @@ video{
 
 #page3 .msg h2{
     text-align: center;
+    background: linear-gradient(to top,red,royalblue);
+    color: transparent;
     font-weight: 900;
-    font-size: 35px;
+    font-size: 40px;
     width: 100%;
-    -webkit-text-stroke: 1px darkmagenta;
+    -webkit-background-clip: text;
+   
 }
 
 #page3 .msg p{
@@ -326,9 +338,11 @@ video{
     font-weight: 500;
     width: 100%;
     line-height: 25px;
+    background:linear-gradient(to left,red,royalblue);
+    color: transparent;
+    -webkit-background-clip: text;
     padding: 20px;
     text-align: center;
-    -webkit-text-stroke: 0.5px darkmagenta;
 }
 
 #page3 .princess img{
