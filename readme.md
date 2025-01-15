@@ -26,7 +26,7 @@ You can access the live website here: [Supercell Redesigned](https://supercell-r
 
 1. Clone this repository:
     ```bash
-    git clone https://github.com/your-username/supercell-redesigned.git
+    git clone https://github.com/AyushBhxrdwaj/supercell-redesigned.git
     ```
 
 2. Navigate to the project directory:
